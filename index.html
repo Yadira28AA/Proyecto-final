@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Yadira">
+    <meta name="description" content="Las emociones">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Yadira| Aprendiendo a regular las emociones</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/1Y.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/1Y.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Emociones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">¿Cómo regularlas?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Psicología de las emociones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/yy.jpeg" alt="Foto de Yadira">
+        <h1>Hola, soy Yaddy</h1>
+       <h2>Llegaste a la página correcta para ayudarte a regular tus emociones</h2> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/1Y.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce tus emociones</h2>
+        <p class="seccion-texto">Para construir mejores relaciones afectivas</em></p>
+      </div>
+    </section>
+    <section id="video" class="videoprincipal">
+      <video src="imagenes/EM.mp4" width="500" height="600" text-aligen="" autoplay controls>Mis mascotas</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">¿Que son las emociones?</p>
+            <p>Son la respuesta del organismo ante un estímulo emocionalmente competente.</p>
+            <p>Son reacciones psicofisiológicas que representan modos de adaptación del individuo cuando percibe un objeto, persona, lugar, suceso o recuerdo importante..</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Emociones positivas</p>
+            <p>Son aquellas que nos producen bienestar, es decir, una experiencia emocional agradable, placentera y deseable.</p>
+            <p>Suelen causarse debido a una situación que consideramos beneficiosa, y se mantienen durante un periodo corto de tiempo.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Alegría</span>
+              <span class="badge text-bg-primary">Gratitud</span>
+              <span class="badge text-bg-primary">Inspiración</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Emociones negativas</p>
+            <p>Producen una experiencia emocional desagradableSurgen ante situaciones relevantes que implican peligro, amenaza, daño, pérdida</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tristeza</span>
+              <span class="badge text-bg-primary">Frustración</span>
+              <span class="badge text-bg-primary">Enojo</span>
+              <span class="badge text-bg-primary"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">¿Cómo regular las emociones?</h2>
+      <h3 class="seccion-descripcion">Aquí algunos consejos...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/5Y.png" alt="L1">
+              <p>Para aprender a regular las emociones, se recomienda identificar tus emociones, reconocer las señales físicas, practicar la atención plena,
+                hacer ejercicio, mantener un diario, aprender técnicas de manejo del estrés, buscar apoyo y tomar tiempo para ti. </p>
+              <div class="overlay">
+                <p>Debemos de...</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/6Y.jpg" alt="k1">
+                            <p>Al implementar estrategias, es posible controlar y modificar las emociones en respuesta a situaciones cotidianas y tener una vida más equilibrada y plena. </p>
+              <div class="overlay">
+                <p>Regulación de las emociones</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/7Y.jpg" alt="6Y">
+                             <p>Estudia y analiza las conductas y los procesos mentales de los individuos, en relación con las emociones, la psicología se dedica a explorar y comprender las emociones humanas.</p>
+              <div class="overlay">
+                            <p>Psicología de las emociones</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/F1.jpg" alt="F1">
+              <p>Sirve para facilitar las conductas, lo que es fundamental de las emociones para la adaptación.
+                La función adaptativa es considerada una fundación fundamental de las emociones, pues se encarga de preparar al organismo para ejecutar la conducta
+              </p>
+              <div class="overlay">
+                <p>Función adaptativa</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/F2.jpg" alt="Proyecto 5">
+              <p> Facilita las conductas en las relaciones interpersonales.
+                Se espera que la función social facilite la interacción social, el control de la conducta, promoveer la nueva comunicación, entre otros factores.
+              </p>
+              <div class="overlay">
+                <p>Función social</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/F3.jpg" alt="Proyecto 6">
+              <p>La emoción y la motivación tienen una gran relación, esto no se limita al hecho de que las conductas motivadas se producen reacciones emocionales.
+                Una emoción también puede determinar cómo aparecen las conductas motivadas.
+              </p>
+              <div class="overlay">
+                <p>Funciones motivacionales</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://www.cesuma.mx/blog/como-aprender-a-regular-las-emociones.html#:~:text=Para%20aprender%20a%20regular%20las,y%20tomar%20tiempo%20para%20ti." target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Más información...
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Más ayuda...</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.icbf.gov.co/system/files/procesos/pu5.g1.mo18.pp_ficha_tecnica_-_regulacion_emocional_v1.pdf"  target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Qué es la regulación de las emociones?
+            </li>
+          </a>
+          <a href="https://www.becas-santander.com/es/blog/autocontrol-emocional.html" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Cómo manejar la regulación emocional?
+            </li>
+          </a>
+          <a href="https://people.acciona.com/es/tendencias-e-inspiracion/regulacion-emocional/?_adin=02021864894" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Por qué es importante la regulación de las emociones?
+            </li>
+          </a>
+          <a href="https://www.juntadeandalucia.es/averroes/centros-tic/18601990/helvia/sitio/upload/EL_CEREBRO_EMOCIONAL.pdf" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Donde se regula las emociones
+            </li>
+          </a>
+          <a href="https://psicoolivencia.com/no-haber-regulado-las-emociones/#:~:text=Consecuencias%20de%20no%20regular%20las%20emociones&text=Lo%20que%20pierdes%20y%20lo,no%20enfocar%20tus%20claros%20objetivos." target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Qué pasa si no hay regulación emocional?
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.google.com/search?q=regulacion+de+emociones&rlz=1C1AVFC_enMX886MX890&oq=Re&gs_lcrp=EgZjaHJvbWUqDggAEEUYOxhDGIAEGIoFMg4IABBFGDsYQxiABBiKBTIGCAEQRRhAMgYIAhBFGDkyBggDEEUYPDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMzEwMmowajmoAgCwAgA&sourceid=chrome&ie=UTF-8" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más información
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Emociones</h2>
+      <h3 class="seccion-descripcion">Aquí podrás algunas emociones...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Ale.jpg" alt="primero">
+              <p class="testimonio-texto">Alegría</p>
+              <div class="testimonio-info">
+                <p class="cliente"></p>
+                <p class="cargo">Es una emoción amistosa o una sensación de satisfacción o felicidad placer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Tri.jpg" alt="segundo">
+              <p class="testimonio-texto">Tristeza</p>
+              <div class="testimonio-info">
+                <p class="cliente"></p>
+                <p class="cargo">Estado de ánimo que se caracteriza por un sentimiento de dolor o desilusión que incita al llanto.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Fur.jpg" alt="tercero">
+              <p class="testimonio-texto">Furia</p>
+              <div class="testimonio-info">
+                <p class="cliente"></p>
+                <p class="cargo">Un estado mental alterado de ira demencial.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Contactame y podemos compartir más información que ayude a los demás.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="lopezaguirreyadira2@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/EEE.png" alt="Logo del portafolio"> 
+      <p class="footer-texto text-center">Realizando un autoconociemiento.<br>Aprendemos a cuidarnos emocionalmente.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://github.com/Yadira28AA" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/yadira-l%C3%B3pez-aguirre-68a5062a0/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/yaddy_aguirre/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="lopezaguirreyadira2@gmail.com.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Adaptado por Yadira </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
